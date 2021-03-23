@@ -13,6 +13,8 @@ Now in IWAZ(http://iwaz.co.kr/) as a developer.
  - Fun with Elastic Search
  - 2021 ~  
  - Distributed File System(HDFS, HBASE) based on K8S
+ - Fun with NIFI
+ - Fun with Google Cloud Engine
   
 ## What did I do?  
 wasting time  
