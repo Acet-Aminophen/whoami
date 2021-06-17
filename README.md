@@ -14,5 +14,7 @@ Now in IWAZ(http://iwaz.co.kr/) as a developer.
  - 2021 ~  
  - Distributed File System(HDFS, HBASE) based on K8S
  - Fun with NIFI
- - Fun with Google Cloud Engine
-  
+ - Fun with Google Cloud Engine(It's very fun)
+ - Fun with Elastic Search
+ - Fun with Kafka
+ - Fun with Galera( + Haproxy)
