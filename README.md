@@ -1,7 +1,7 @@
 # Who am I?  
   
 ## Eduaction  
-Graduated from Daejeon Seoil Highschool  
+Graduated from Daejeon Seoil Highschool.  
 Now in Hanbat Nationcal University(HBNU), Computer Engineering Dept. as a night student.  
   
 ## Work  
