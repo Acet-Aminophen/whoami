@@ -21,6 +21,6 @@ Now in IWAZ(http://iwaz.co.kr/) as a developer(Alternative Military Service).
  - Fun with Galera( + Haproxy)
  - Fun with Spring Framework
  - Fun with Mybatis
- - Fun with Android(Actually, Since two years ago, as a hobby)
+ - Fun with Android(Actually, I have studied it since two years before, as a hobby)
  - Deployed a project related to indexing & searching system(Elasticsearch, Kibana, Kafka, JAVA) based on Docker
  - 
