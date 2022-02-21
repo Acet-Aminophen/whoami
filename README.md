@@ -2,7 +2,7 @@
   
 ## Eduaction  
 Graduated from Daejeon Seoil Highschool.  
-Graduated from Hanbat Nationcal University(HBNU), Computer Engineering Dept. as a night student.  
+Graduated from Hanbat National University(HBNU), Computer Engineering Dept. as a night student.  
 Interested in security (especially hash).  
   
 ## Work  
