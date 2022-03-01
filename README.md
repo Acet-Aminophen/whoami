@@ -10,7 +10,7 @@ Now in IWAZ(http://iwaz.co.kr/) as a developer(Alternative Military Service).
  - 2020 ~  
  - Health(Disease) Information Crawler
  - Distributed File System(HDFS, HBASE) based on Docker
- - Fun with BERT, KoBERT
+ - Fun with ~~BERT, KoBERT~~(honestly... it's not that fun to me...)
  - Fun with Elastic Search
  - 2021 ~  
  - Distributed File System(HDFS, HBASE) based on K8S
