@@ -28,4 +28,5 @@ Now in IWAZ(http://iwaz.co.kr/) as a developer(Alternative Military Service).
  - Fun with making monitoring system(Elastic Search, Kibana, metricbeat, auditbeat)
  - Fun with making Private Docker Registry
  - Fun with SSL(TSL)
- - 
+ - Fun with Docker Swarm
+ - Fun with GlusterFS for Docker Swarm Deployment(Service)
