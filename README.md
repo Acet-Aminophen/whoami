@@ -26,10 +26,10 @@ Now in IWAZ(http://iwaz.co.kr/) as a developer(Alternative Military Service).
  - Fun with Server Maintenance
  - 2022 ~
  - Fun with making monitoring system(Elastic Search, Kibana, metricbeat, auditbeat)
- - Fun with making Private Docker Registry
+ - Fun with deploying Private Docker Registry
  - Fun with SSL(TSL)
  - Fun with Docker Swarm
  - Fun with GlusterFS for Docker Swarm Deployment(Service)
- - Fun with making Gitea
+ - Fun with deploying Gitea
  - Fun with Jenkins
  - be Deployed as a Security Manager(I think it's too much)
