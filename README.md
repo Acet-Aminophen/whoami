@@ -30,4 +30,5 @@ Now in IWAZ(http://iwaz.co.kr/) as a developer(Alternative Military Service).
  - Fun with SSL(TSL)
  - Fun with Docker Swarm
  - Fun with GlusterFS for Docker Swarm Deployment(Service)
+ - Fun with Jenkins
  - be Deployed as a Security Manager(I think it's too much)
