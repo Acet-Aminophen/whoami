@@ -24,7 +24,7 @@ Was in IWAZ(http://iwaz.co.kr/) as a developer(Alternative Military Service).
  - Fun with Android(Actually, I have studied it since two years before, as a hobby)
  - Deployed a project related to indexing & searching system(Elasticsearch, Kibana, Kafka, JAVA) based on Docker
  - Fun with Server Maintenance
- - ~ 2022.06
+ - 2022 ~ 2022.06
  - Fun with making monitoring system(Elastic Search, Kibana, metricbeat, auditbeat)
  - Fun with deploying Private Docker Registry
  - Fun with Security Transmission Tech kinda SSL(TSL), SSH
