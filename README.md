@@ -1,6 +1,6 @@
 # Who am I?  
   
-## Eduaction  
+## Education  
 Graduated from Daejeon Seoil Highschool.  
 Graduated from Hanbat National University(HBNU), Computer Engineering Dept. as a night student.  
 Interested in security (especially hash).  
