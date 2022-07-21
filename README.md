@@ -25,13 +25,16 @@ Was in IWAZ(http://iwaz.co.kr/) as a developer(Alternative Military Service).
  - Deployed a project related to indexing & searching system(Elasticsearch, Kibana, Kafka, JAVA) based on Docker
  - Fun with Server Maintenance
  - 2022 ~ 2022.06
- - Fun with making monitoring system(Elastic Search, Kibana, metricbeat, auditbeat)
- - Fun with deploying Private Docker Registry
+ - Fun with making monitoring System(Elastic Search, Kibana, metricbeat, auditbeat)
+ - Fun with making CI/CD System(Jenkins, Teamcity)
  - Fun with Security Transmission Tech kinda SSL(TSL), SSH
+ - Fun with making Private DNS with Core DNS
+ - Fun with applying Private DNS
+ - Fun with applying New Network Rule(Subnet, DNS, DHCP, etc)
+ - Fun with deploying Monitoring System, Private Docker Registry, Gitea(Private Git Storage), CI/CD System
+ - Fun with making multiple projects built on Docker
  - Fun with Docker Swarm
  - Fun with GlusterFS for Docker Swarm Deployment(Service)
- - Fun with deploying Gitea
- - Fun with deploying Jenkins
  - be Deployed as a Security Manager(I think it's too much)
 
 Now I'm a bum.
