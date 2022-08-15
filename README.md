@@ -6,7 +6,7 @@ Graduated from Hanbat National University(HBNU), Computer Engineering Dept. as a
 Interested in security (especially hash).  
   
 ## Work  
-Was in IWAZ(http://iwaz.co.kr/) as a developer(Alternative Military Service).
+Was in IWAZ(http://iwaz.co.kr/, 2020.05 ~ 2022.06) as a developer(Alternative Military Service).
  - 2020.05 ~  
  - made a Health(Disease) Information Crawler
  - Fun with Distributed File System(HDFS, HBASE) based on Docker
