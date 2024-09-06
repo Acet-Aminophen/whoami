@@ -1,9 +1,18 @@
 Portfolio(경력기술서) (KR)
 =============
+※ 본 문서에 첨부된 이미지는 모두 보안을 위해 검열되었거나, 공개 가능한 데이터로 재현된 것들입니다.  
+
+<img src = "img/me/1.jpg" width="40%">  
+
 __이동석__  
 __DEVOPS Engineer__  
+leeds06080@gmail.com  
 
-※ 본 문서에 첨부된 이미지는 모두 보안을 위해 검열되었거나, 공개 가능한 데이터로 재현된 것들입니다.  
+궁여지책보다는 영구적인 해결책을,  
+조각보다는 큰 그림 속의 한 부분을,  
+반복보다는 자동화를,  
+그리고 그것들을 이루기 위한 대화를,  
+그리고 그것들을 통해 허울이 아닌 목표를 향하기 위해 노력하는, 이동석입니다.
 
 ***
 
@@ -11,12 +20,78 @@ __DEVOPS Engineer__
 ## (주)메타빌드
  - 2023.03 ~ 
 
+### 1. Kubernetes - 크라우드 소싱 기반의 디지털 도로·교통 인프라 융합 플랫폼 기술 개발
+ - __안정적인 인프라 구성 역할 수행__
 
-### 1. 클라우드 서비스 보안 인증(CSAP)
-   ![k8s1](img/gsaas/main.png)  
+### 1.1. Kubernetes
+ - NCP Kubernete Service 사용
+ - GitOPS 사용을 통한 멀티 클라우드 대비
+ - 자사 제품(ESB, APIG, 수집기 등)의 Container Image화
+ - Container Image Build는 CI/CD와 연계
+ - __HPA, Autoscaler(Node) 등 유연한 컨테이너 생태계 기술(Disposability) 적용__
+ - __아래 추가 모듈 사용__
+    ~~~
+    - Argo CD (Gitops)
+    - kustomize
+    - istio (Advanced Network)
+    - Prometheus + Grafana (Monitoring)
+    - Jaeger (Tracing)
+    - open telemetry (Tracing)
+    - HELM (Package Management)
+    ~~~
+ ![k8s1](img/k8s/1.png)  
+
+### 1.2. Naver Cloud Platform(NCP)
+ - 안정적인 인프라 유지 위한 아래 제품군 사용
+    ~~~
+    - VPC
+    - Server
+    - Kubernetes Service 
+    - NAS
+    - Cloud DB for PostgreSQL
+    - Load Balancer
+    - Object Storage
+    - Back Up
+    - Container Registry
+    - Cloud Insight
+    ~~~
+
+### 1.3. Amazon Web Service(AWS)
+ - Naver Cloud Platform을 대체하기 위해 현재 마이그레이션 중
+ - 안정적인 인프라 유지 위한 아래 제품군 사용
+    ~~~
+    - VPC
+    - EC2
+    - Elastic Kubernetes Service
+    - Elastic Container Registry
+    - S3
+    - RDS
+    ~~~
+
+### 1.4. CI/CD
+ - 제품의 최신 이미지 Build 및 Container Registry를 향한 Push, 기타 자동화 위해 사용
+  - __인적오류 제거 및 배포 속도 2.3배 상승__(Container Build의 경우)
+ - 사내 서버에 Teamcity, NCP Kubernetes에 Argo CD 배포
+ - 사내 Git 저장소 연동, 조건에 따른 자동 Build 및 Push 등 파이프라인 구축
+ - Artifact 저장 및 사내 FTP 동기화 통한 제품 일관성 유지
+ - Terraform 배포 연계 고려중  
+ ![teamcity1](img/cicd/1.png)  
+ ![argocd1](img/argo/1.png)  
+
+### 1.5. IaaC
+ - __IaaC 필요성에 따라 Terraform 도입__
+ - __Ncloud Provider를 통해 90% 이상의 필요 인프라 구현__
+ - aws Provider를 통한 인프라 마이그레이션 진행 중
+ - 사내 Git 연계 및 메뉴얼 작성됨  
+ ![terraform1](img/terraform/1.png)  
+ ![terraform2](img/terraform/2.png)  
+
+
+### 2. 클라우드 서비스 보안 인증(CSAP)
+ ![k8s1](img/gsaas/main.png)
  - 대규모 트래픽이 예상되는 자사 제품(ESB, APIG, Datahub 등)의 SaaS화
  - Linux 상 Python과 Shell 스크립트를 통한 설정 및 자사 제품 설치 자동화
-### 1.1. Naver Cloud Platform(NCP)
+### 2.1. Naver Cloud Platform(NCP)
  - 보안 요구사항 위해 국내 Cloud Provider 채택, 아래 제품군 사용
     ~~~
     - VPC
@@ -35,78 +110,14 @@ __DEVOPS Engineer__
     ~~~
  - NHN Cloud, KT Cloud, Samsung Cloud Platform 마이그레이션 중
 
-### 1.2. 네트워킹, 보안
- - __Networking 관련 TLS, VPC, Subnet, NAT-G, VPN, Routing Table, ACG, ACL 등의 보안 요소 적용__
+### 2.2. 네트워킹, 보안
+ - __Networking 관련 TLS, VPC, Subnet, NAT-G, VPN, Routing Table, ACG, ACL 등의 다양한 보안 요소 적용__
  - 도메인 확보 및 NCP DNS 적용
- - TLS(HTTPS) 인증서 발급(도메인 증명)
- - LoadBalancer, Nginx 등 인증서 적용 통한 HTTPS 활성화
- - 2FA(2차인증) 위한 Mail 인증(도메인 SPF 증명)
+ - TLS(HTTPS) 인증서 발급(도메인 증명) 및 LoadBalancer, Nginx 등 인증서 적용 통한 HTTPS 활성화
+ - CCE, CVE 검사 자동화 연계
+ - Mail 인증(도메인 SPF 증명)
  - HTTPS 미사용 대비 기술(Redirect(301), HSTS, 유일 도메인 등) 적용
 
-
-### 2. Kubernetes - 크라우드 소싱 기반의 디지털 도로·교통 인프라 융합 플랫폼 기술 개발
- - __안정적인 인프라 구성 역할 수행__
-
-### 2.1. Kubernetes
- - NCP Kubernete Service 사용
- - 자사 제품(ESB, APIG, 수집기 등)의 Container Image화(CI/CD 연계)
- - __HPA, Autoscaler(Node) 등 유연한 컨테이너 생태계 기술(Disposability) 적용__
- - __아래 추가 모듈 사용__
-    ~~~
-    - Argo CD (Gitops)
-    - kustomize
-    - istio (Advanced Network)
-    - Prometheus + Grafana (Monitoring)
-    - Jaeger (Tracing)
-    - open telemetry (Tracing)
-    - HELM (Package Management)
-    ~~~
- ![k8s1](img/k8s/1.png)  
-
-### 2.2. Naver Cloud Platform(NCP)
- - 안정적인 인프라 유지 위한 아래 제품군 사용
-    ~~~
-    - VPC
-    - Server
-    - Kubernetes Service 
-    - NAS
-    - Cloud DB for PostgreSQL
-    - Load Balancer
-    - Object Storage
-    - Back Up
-    - Container Registry
-    - Cloud Insight
-    ~~~
-
-### 2.3. Amazon Web Service(AWS)
- - Naver Cloud Platform을 대체하기 위해 현재 마이그레이션 중
- - 안정적인 인프라 유지 위한 아래 제품군 사용
-    ~~~
-    - VPC
-    - EC2
-    - Elastic Kubernetes Service
-    - Elastic Container Registry
-    - S3
-    - RDS
-    ~~~
-
-### 2.4. CI/CD
- - 제품의 최신 이미지 Build 및 Container Registry를 향한 Push, 기타 자동화 위해 사용
-  - __인적오류 제거 및 배포 속도 2.3배 상승__(Container Build의 경우)
- - 사내 서버에 Teamcity, NCP Kubernetes에 Argo CD 배포
- - 사내 Git 저장소 연동, 조건에 따른 자동 Build 및 Push 등 파이프라인 구축
- - Artifact 저장 및 사내 FTP 동기화 통한 제품 일관성 유지
- - Terraform 배포 연계 고려중  
- ![teamcity1](img/cicd/1.png)  
- ![argocd1](img/argo/1.png)  
-
-### 2.5. IaaC
- - __IaaC 필요성에 따라 Terraform 도입__
- - __Ncloud Provider를 통해 90% 이상의 필요 인프라 구현__
- - aws Provider를 통한 인프라 마이그레이션 진행 중
- - 사내 Git 연계 및 메뉴얼 작성됨  
- ![terraform1](img/terraform/1.png)  
- ![terraform2](img/terraform/2.png)  
 
 ### 3. 사내 DEVOPS 협업 및 자원 관리
  - Openstack 기반 사내 클라우드 서버 운영
@@ -176,6 +187,26 @@ __DEVOPS Engineer__
 
  - ETRI, 경찰대학 납품
 ***
+
+# 커뮤니케이션
+## '클라우드 개요' 전직원 대상 PPT
+ - 2023년, (주) 메타빌드
+ - 참석자 300명 이상
+ - ![tgwil](img/metabuild_pic/2.png)
+## '연구노력상' 수상
+ - 2023년, (주)메타빌드
+ - ![tgwil](img/metabuild_pic/1.jpg)
+## '같이 일하고 싶은 사원 상' 수상
+ - 2021년, (주)아이와즈
+ - ![tgwil](img/iwaz_pic/3.jpg)
+## 채용 홍보영상 출연 및 촬영
+ - 2021년, (주)아이와즈
+ - 사진을 누르면 이동합니다.
+ - [![iwaz_video_1](img/iwaz_pic/1.png)](https://www.youtube.com/watch?v=bbfXy0QEx3E)
+## 복지 홍보영상 출연
+ - 2022년, (주)아이와즈
+ - 사진을 누르면 이동합니다.
+ - [![iwaz_video_2](img/iwaz_pic/2.png)](https://youtu.be/Z-80LXQFT5M)
 
 # 기타경력
 ## 게임 Dedicated 서버 대여 서비스
