@@ -124,9 +124,8 @@ __그리고 그것들을 통해, 보여주기식 허울이 아닌 목표를 향�
  - Openstack 기반 사내 클라우드 서버 운영
  ![openstack](img/openstack/1.png)
  - 내부 인증서 발급 및 유지보수
- ![cert1](img/cert/1.png)
- ![cert2](img/cert/2.png)
- ![cert3](img/cert/3.png)
+ ![cert2](img/cert/1.png)
+ ![cert3](img/cert/2.png)
  - DNS 서버 구축 및 운영
  ![dns](img/dns/1.png)
  - Git 정책 등 컨벤션 수립
