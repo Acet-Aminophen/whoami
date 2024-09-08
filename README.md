@@ -158,11 +158,7 @@ __그리고 그것들을 통해, 보여주기식 허울이 아닌 목표를 향�
 ![ms4](img/monitoring_system/dash4.png)  
 ![ms5](img/monitoring_system/dash5.png)  
 
-### 1.4. Private Docker Registry
- - 사내 보안상 Docker Hub를 사용할 수 없는 Image들의 사용을 위해 구축  
-![dr1](img/docker_registry/1.png)  
-
-### 1.5. Private Git Storage(Gitea)
+### 1.4. Private Git Storage(Gitea)
  - 사내 보안상 Public Git 저장소 사용 불가하여 구축
  - CI/CD 연계 사용(Teamcity, Jenkins)  
 ![pgs2](img/git/2.png)  
@@ -189,21 +185,21 @@ __그리고 그것들을 통해, 보여주기식 허울이 아닌 목표를 향�
 ***
 
 # 커뮤니케이션
-## '클라우드 개요' 전직원 대상 PPT
+## 1. '클라우드 개요' 전직원 대상 PPT
  - 2023년, (주) 메타빌드
  - 참석자 300명 이상
  - ![tgwil](img/metabuild_pic/2.png)
-## '연구노력상' 수상
+## 2. '연구노력상' 수상
  - 2023년, (주)메타빌드
  - ![tgwil](img/metabuild_pic/1.jpg)
-## '같이 일하고 싶은 사원 상' 수상
+## 3. '같이 일하고 싶은 사원 상' 수상
  - 2021년, (주)아이와즈
  - ![tgwil](img/iwaz_pic/3.jpg)
-## 채용 홍보영상 출연 및 촬영
+## 4. 채용 홍보영상 출연 및 촬영
  - 2021년, (주)아이와즈
  - 사진을 누르면 이동합니다.
  - [![iwaz_video_1](img/iwaz_pic/1.png)](https://www.youtube.com/watch?v=bbfXy0QEx3E)
-## 복지 홍보영상 출연
+## 5. 복지 홍보영상 출연
  - 2022년, (주)아이와즈
  - 사진을 누르면 이동합니다.
  - [![iwaz_video_2](img/iwaz_pic/2.png)](https://youtu.be/Z-80LXQFT5M)
