@@ -26,10 +26,10 @@ __그리고 그것들을 통해, 보여주기식 허울이 아닌 목표를 향�
 
 ### 1.1. Kubernetes
  - NCP Kubernete Service 사용
- - GitOPS 사용을 통한 멀티 클라우드 대비
+ - __GitOPS 사용을 통한 멀티 클라우드 대비__
+ - __고급 네트워크 조작을 위한 istio 사용__
  - 자사 제품(ESB, APIG, 수집기 등)의 Container Image화
  - Container Image Build는 CI/CD와 연계
- - __HPA, Autoscaler(Node) 등 유연한 컨테이너 생태계 기술(Disposability) 적용__
  - __아래 추가 모듈 사용__
     ~~~
     - Argo CD (Gitops)
