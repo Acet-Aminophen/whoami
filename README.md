@@ -238,3 +238,10 @@ __그리고 마지막으로, 그것들을 이루기 위한 대화를.__
  - PINI ENGINE 사용
  - PL, 개발 수행  
  ![tgwil](img/vn/1.png)  
+
+## 게임 Abiotic Factor 한글 패치 제작
+ - 2024년 10월 배포
+ - 언리얼 엔진 리버스 엔지니어링
+ - https://github.com/Skyblue-Sky/abioticfactor-localization-korean
+ ![af](img/abioticfactor/logo.png)  
+ ![af](img/abioticfactor/1.jpg)  
