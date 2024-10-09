@@ -7,7 +7,7 @@ Portfolio(경력기술서) (KR)
 __이동석__  
 __DEVOPS Engineer__  
 leeds06080@gmail.com  
-직무경력 3년 8개월(2024.09 기준)  
+직무경력 3년 9개월(2024.10 기준)  
 
 __궁여지책보다는 영구적인 해결책을,__  
 __파편보다는 큰 그림 속의 한 부분을,__  
@@ -240,7 +240,8 @@ __그리고 마지막으로, 그것들을 이루기 위한 대화를.__
  ![tgwil](img/vn/1.png)  
 
 ## 게임 Abiotic Factor 한글 패치 제작
- - 2024년 10월 배포
+ - 팀장 직무 수행
+ - 2024년 10월 배포 완료
  - 언리얼 엔진 리버스 엔지니어링
  - https://github.com/Skyblue-Sky/abioticfactor-localization-korean
  ![af](img/abioticfactor/logo.png)  
