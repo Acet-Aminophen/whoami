@@ -7,7 +7,7 @@ Portfolio(경력기술서) (KR)
 __이동석__  
 __DEVOPS Engineer__  
 leeds06080@gmail.com  
-직무경력 4년(2025.12 기준)  
+직무경력 4년(2026.06 기준)  
 
 __반복보다는 자동화를,__  
 __그것들을 이루기 위한 대화를.__  
@@ -55,7 +55,7 @@ __그것들을 이루기 위한 대화를.__
     ~~~
 
 ### 1.3. Amazon Web Service(AWS)
- - Naver Cloud Platform을 대체하기 위해 현재 마이그레이션 중
+ - Naver Cloud Platform을 대체하기 위해 마이그레이션 테스트
  - 안정적인 인프라 유지 위한 아래 제품군 사용
     ~~~
     - VPC
